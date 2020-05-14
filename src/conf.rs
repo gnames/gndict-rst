@@ -2,7 +2,7 @@ use crate::error::GndError;
 use dotenv::dotenv;
 use std::{env, error};
 
-#[derive(Default, Debug)]
+#[derive(Default, Debug, Clone)]
 pub struct Conf {
     pub work_dir: String,
     pub pg_host: String,
