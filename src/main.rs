@@ -2,6 +2,7 @@
 //! Takes data about scientific names and generic names from a database and uses the data to create
 //! black, white and grey dictionaries for gnfinder.
 
+mod assets;
 mod conf;
 mod download;
 mod error;
@@ -13,7 +14,7 @@ use std::process;
 use std::thread::spawn;
 use stderrlog::{self, Timestamp};
 
-use clap::{App, Arg, SubCommand};
+use clap::{App, Arg};
 
 fn main() {
     stderrlog::new()
@@ -38,17 +39,16 @@ fn main() {
 
     if matches.is_present("version") {
         println!("Version: {}", clap::crate_version!());
+        process::exit(0);
     }
 
-    if let Some(matches) = matches.subcommand_matches("init") {
-        let mut reload = false;
-        if matches.is_present("reload") {
-            reload = true;
-        }
-        if download::exists(&cfg) && !reload {
-            info!("Data downloaded already, skipping download.");
-            process::exit(0);
-        }
+    let mut reload = false;
+    if matches.is_present("reload") {
+        reload = true;
+    }
+    if download::exists(&cfg) && !reload {
+        info!("Data downloaded already, skipping download.");
+    } else {
         info!("Downloading names and genera...");
         create_dir_all(&cfg.work_dir).unwrap();
         let cfg_clone1 = cfg.clone();
@@ -61,19 +61,17 @@ fn main() {
         }
         info!("Download succeded.");
     }
+    let dict = assets::Dict::new();
+    println!("{:#?}", dict);
 }
 
 fn get_app<'a, 'b>() -> App<'a, 'b> {
     App::new("gndict")
         .about("Creates dictionaries for gnfinder")
         .arg(Arg::with_name("version").short("V").help("Shows version"))
-        .subcommand(
-            SubCommand::with_name("init")
-                .about("Downloads raw data from gnindex database")
-                .arg(
-                    Arg::with_name("reload")
-                        .short("r")
-                        .help("starts anew deleting downloaded data"),
-                ),
+        .arg(
+            Arg::with_name("reload")
+                .short("r")
+                .help("starts anew deleting downloaded data"),
         )
 }
