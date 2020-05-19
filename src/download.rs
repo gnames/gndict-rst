@@ -33,8 +33,8 @@ pub fn download_names(cfg: Conf) {
                         ON nsi.name_string_id = ns.id
                     JOIN data_sources ds
                         ON ds.id = nsi.data_source_id
-                WHERE ds.is_curated = true
-                    OR ds.is_auto_curated = true",
+                WHERE ds.is_curated = true",
+            // OR ds.is_auto_curated = true",
         )
         .expect("Cannot execute names query");
     while let Some(row) = res.next().unwrap_or(None) {

@@ -61,8 +61,8 @@ fn main() {
         }
         info!("Download succeded.");
     }
-    let dict = assets::Dict::new();
-    println!("{:#?}", dict);
+    let dict = assets::Dict::new(&cfg.work_dir);
+    dict.canonicals();
 }
 
 fn get_app<'a, 'b>() -> App<'a, 'b> {
