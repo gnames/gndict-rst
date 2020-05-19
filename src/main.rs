@@ -6,6 +6,7 @@ mod assets;
 mod conf;
 mod download;
 mod error;
+mod output;
 mod pg;
 
 use log::{error, info};
@@ -62,7 +63,9 @@ fn main() {
         info!("Download succeded.");
     }
     let dict = assets::Dict::new(&cfg.work_dir);
-    dict.canonicals();
+    dict.csv_temp();
+    let out = output::Output::new(&cfg, &dict);
+    out.process()
 }
 
 fn get_app<'a, 'b>() -> App<'a, 'b> {

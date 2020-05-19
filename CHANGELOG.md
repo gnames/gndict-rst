@@ -5,6 +5,7 @@
 
 ## [v0.1.0]
 
+- Add [#4]: create final dictionaies.
 - Add [#4]: create intermediate CSV files.
 - Add [#3]: embedding of file system files.
 - Add [#2]: database access and raw data download.

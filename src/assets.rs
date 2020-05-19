@@ -1,11 +1,12 @@
 use log::info;
 use rust_embed::RustEmbed;
 use std::collections::{HashMap, HashSet};
+use std::fs::create_dir_all;
 use std::fs::File;
 use std::io::{BufRead, BufReader, Write};
 use std::path::Path;
 
-#[derive(RustEmbed)]
+#[derive(RustEmbed, Debug)]
 #[folder = "data/"]
 struct Asset;
 
@@ -16,6 +17,7 @@ pub struct Dict {
     pub species_black: HashSet<String>,
     pub uninomials_black: HashSet<String>,
     pub genera: HashSet<String>,
+    pub canonicals: HashMap<String, Vec<String>>,
 }
 
 impl Dict {
@@ -27,7 +29,9 @@ impl Dict {
             species_black: HashSet::new(),
             uninomials_black: HashSet::new(),
             genera: HashSet::new(),
+            canonicals: HashMap::new(),
         };
+        make_dirs(path);
 
         let common_words =
             Asset::get("common-eu-words.txt").expect("Cannot find file common-eu-words.txt");
@@ -36,6 +40,9 @@ impl Dict {
         for word in common_words_str.lines() {
             dict.common_words.insert(word.trim().to_owned());
         }
+        let mut f =
+            File::create(Path::new(path).join("dict").join("common").join("eu.csv")).unwrap();
+        write!(f, "{}", common_words_str).unwrap();
 
         let uninomials_black =
             Asset::get("uninomials-black.txt").expect("Cannot find file uninomials_black.txt");
@@ -44,6 +51,14 @@ impl Dict {
         for word in uninomials_black_str.lines() {
             dict.uninomials_black.insert(word.trim().to_owned());
         }
+        let mut f = File::create(
+            Path::new(path)
+                .join("dict")
+                .join("black")
+                .join("uninomials.csv"),
+        )
+        .unwrap();
+        write!(f, "{}", uninomials_black_str).unwrap();
 
         let species_black =
             Asset::get("species-black.txt").expect("Cannot find file species_black.txt");
@@ -52,6 +67,14 @@ impl Dict {
         for word in species_black_str.lines() {
             dict.species_black.insert(word.trim().to_owned());
         }
+        let mut f = File::create(
+            Path::new(path)
+                .join("dict")
+                .join("black")
+                .join("species.csv"),
+        )
+        .unwrap();
+        write!(f, "{}", species_black_str).unwrap();
 
         let f = File::open(Path::new(path).join("genera.txt")).unwrap();
         let r = BufReader::new(f);
@@ -60,10 +83,26 @@ impl Dict {
             dict.genera.insert(line.trim().to_owned());
         }
 
+        dict.get_canonicals();
+
         dict
     }
 
-    pub fn canonicals(&self) {
+    fn get_canonicals(&mut self) {
+        let f = File::open(Path::new(&self.path).join("names.txt")).unwrap();
+        let r = BufReader::new(f);
+        for line in r.lines() {
+            let line = line.unwrap().to_owned();
+            let words: Vec<&str> = line.trim().split(" ").collect();
+            if words.len() < 2 || line.contains("×") {
+                continue;
+            }
+            let entry = self.canonicals.entry(words[0].to_owned()).or_default();
+            entry.push(line.trim().to_owned());
+        }
+    }
+
+    pub fn csv_temp(&self) {
         info!("Creating interim csv files.");
         let mut uninomials: HashMap<String, u32> = HashMap::new();
         let mut genera: HashMap<String, u32> = HashMap::new();
@@ -115,5 +154,14 @@ impl Dict {
         for (k, v) in data {
             writeln!(f, "{},{}", k, v).unwrap();
         }
+    }
+}
+
+fn make_dirs(path: &str) {
+    let path = Path::new(path).join("dict");
+    let dirs = vec!["white", "grey", "black", "common"];
+    for dir in dirs {
+        let dir2 = path.join(dir);
+        create_dir_all(dir2).unwrap();
     }
 }
