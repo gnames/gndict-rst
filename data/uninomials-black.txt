@@ -1341,6 +1341,7 @@ sz
 ta
 tamura
 tango
+tasmanian
 tate
 tausch
 taylor
@@ -1432,6 +1433,7 @@ umbilical
 un
 uncertain
 unclassified
+uncultured
 und
 undecided
 undescribed
