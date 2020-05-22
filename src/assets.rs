@@ -125,11 +125,18 @@ impl Dict {
                     *entry += 1;
                 }
             } else {
-                let entry = genera.entry(words[0].to_owned()).or_default();
-                *entry += 1;
+                let mut has_black_sp = false;
                 for word in &words[1..] {
                     let word = word.to_owned();
+                    if self.species_black.contains(word) {
+                        has_black_sp = true;
+                        continue;
+                    }
                     let entry = species.entry(word.to_owned()).or_default();
+                    *entry += 1;
+                }
+                if !has_black_sp {
+                    let entry = genera.entry(words[0].to_owned()).or_default();
                     *entry += 1;
                 }
             }
@@ -149,6 +156,7 @@ impl Dict {
         self.build_csv("genera.csv", genera);
         self.build_csv("species.csv", species);
     }
+
     fn build_csv(&self, name: &str, data: HashMap<String, u32>) {
         let mut f = File::create(Path::new(&self.path).join(name)).unwrap();
         for (k, v) in data {

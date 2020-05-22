@@ -124,10 +124,25 @@ impl<'a> Output<'a> {
         for line in out_grey {
             writeln!(grey, "{}", line).unwrap();
         }
-        out_grey_species.sort();
+        let out_grey_species = self.prepare_grey_species(out_grey_species);
         for line in out_grey_species {
             writeln!(grey_species, "{}", line).unwrap();
         }
+    }
+
+    fn prepare_grey_species(&self, names: Vec<String>) -> Vec<String> {
+        let mut res: Vec<String> = Vec::new();
+        for name in names {
+            res.push(name.to_owned());
+            let words: Vec<&str> = name.split_whitespace().collect();
+            if words.len() == 3 {
+                res.push(format!("{} {}", words[0], words[1]));
+                res.push(format!("{} {}", words[0], words[2]));
+            }
+        }
+        res.sort_unstable();
+        res.dedup();
+        res
     }
 
     fn prepare_species(&self) {
@@ -174,7 +189,7 @@ impl<'a> Output<'a> {
 
     fn species_problems(&self, sp: &str) -> bool {
         if sp.len() < 2
-            || self.dict.species_black.contains(sp)
+            || self.dict.species_black.contains(&sp.to_lowercase())
             || sp.find(char::is_numeric).is_some()
             || sp.contains(".")
         {
@@ -184,14 +199,14 @@ impl<'a> Output<'a> {
     }
 
     fn generic_problems(&self, word: &str) -> bool {
-        if self.dict.uninomials_black.contains(word) || word.contains(".") {
+        if self.dict.uninomials_black.contains(&word.to_lowercase()) || word.contains(".") {
             return true;
         }
         false
     }
 
     fn uninomial_problems(&self, word: &str) -> bool {
-        if self.dict.uninomials_black.contains(word) || word.contains(".") {
+        if self.dict.uninomials_black.contains(&word.to_lowercase()) || word.contains(".") {
             return true;
         }
         false
