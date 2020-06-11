@@ -1,9 +1,11 @@
 # gndict
 
-gndict creates gnfinder dictionaries using gnindex database. It uses an
-internal gnindex database and, therefore has an internal use. If you want to
-modify gnfinder dictionaries, please add a ticket and I will tell how it can be
-used without database access.
+gndict creates gnfinder dictionaries using gnindex database. The database has
+to be created by the latest version of
+[gnidump](https://github.com/gnames/gnidump/). It uses an internal gnindex
+database and, therefore has an internal use. If you want to modify gnfinder
+dictionaries, please add a ticket and I will tell how it can be used without
+database access.
 
 ## Install and usage
 
