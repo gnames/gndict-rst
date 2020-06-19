@@ -35,3 +35,10 @@ directory.
 After the program runs it will generate new dictionaries in provided by user
 ``WORK_DIR`` in subdicectory ``dict``. The content of ``dict`` dir will have to
 be copied to ``gnfinder/data/files``.
+
+## Index to Organism Names (ION)
+
+Directory `data` has `ion-names.txt` file. It contains scientific names from
+ION that do not exist in other data-sources. This list contains a significant
+number of misspellings. We will use it anyway because it is important to find
+names that are now "out of circulation".

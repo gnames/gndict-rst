@@ -2,7 +2,7 @@ use crate::{conf::Conf, pg};
 
 use postgres::fallible_iterator::FallibleIterator;
 use std::fs::File;
-use std::io::Write;
+use std::io::{self, BufRead, Write};
 use std::path::Path;
 
 const NAME_FILE: &str = "names.txt";
@@ -40,6 +40,16 @@ pub fn download_names(cfg: Conf) {
     while let Some(row) = res.next().unwrap_or(None) {
         let name: &str = row.get(0);
         writeln!(f, "{}", name).unwrap();
+    }
+    append_ion_names(f);
+}
+
+pub fn append_ion_names(mut names_file: File) {
+    let path = Path::new("data").join("ion_names.txt");
+    let ion = io::BufReader::new(File::open(path).unwrap());
+    for name in ion.lines() {
+        let name: &str = &name.unwrap();
+        writeln!(names_file, "{}", name).unwrap();
     }
 }
 
