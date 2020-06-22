@@ -45,8 +45,7 @@ pub fn download_names(cfg: Conf) {
 }
 
 pub fn append_ion_names(mut names_file: File) {
-    let path = Path::new("data").join("ion_names.txt");
-    let ion = io::BufReader::new(File::open(path).unwrap());
+    let ion = io::BufReader::new(File::open("data/ion-names.txt").unwrap());
     for name in ion.lines() {
         let name: &str = &name.unwrap();
         writeln!(names_file, "{}", name).unwrap();
