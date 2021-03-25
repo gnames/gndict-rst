@@ -125,6 +125,7 @@ abiding
 abidjan
 abietis
 abigail
+abila
 abilene
 ability
 abimelech
@@ -777,6 +778,7 @@ adept
 adequacy
 adequate
 adermin
+ades
 adessive
 adesso
 adeus
@@ -1701,6 +1703,7 @@ alexin
 alexipharmic
 aleyrodes
 alfalfa
+alfaro
 alfieri
 alfilaria
 alfine
@@ -5872,6 +5875,7 @@ barbiton
 barbitone
 barbiturate
 barbiturism
+barbosa
 barboza
 barbuda
 barbule
@@ -6514,6 +6518,7 @@ belched
 beldam
 beleaguer
 belemnite
+beleza
 belfast
 belfort
 belfry
@@ -6772,6 +6777,7 @@ berseem
 berserk
 berserker
 bert
+berta
 berth
 bertha
 bertin
@@ -9825,6 +9831,7 @@ camacho
 camaguey
 camail
 camanchaca
+camara
 camaraderie
 camarilla
 camas
@@ -10047,6 +10054,7 @@ cannot
 cannula
 cannular
 canny
+cano
 canoe
 canoewood
 canon
@@ -10418,6 +10426,7 @@ carmelia
 carmelite
 carminative
 carmine
+carmona
 carn
 carnage
 carnal
@@ -10580,6 +10589,7 @@ casals
 casamento
 casanova
 casar
+casas
 casaubon
 cascabel
 cascade
@@ -10788,6 +10798,7 @@ cateran
 catercorner
 caterer
 catering
+caterino
 caterpillar
 caterwaul
 catfall
@@ -12526,6 +12537,7 @@ ciudad
 civ.
 cive
 civet
+civetta
 civic
 civics
 civies
@@ -13259,6 +13271,7 @@ colima
 coliseum
 colitis
 coll.
+colla
 collaborate
 collaboration
 collaborationist
@@ -15619,6 +15632,7 @@ cropper
 croquet
 croquette
 crore
+crosa
 crosby
 crosier
 cross
@@ -15921,6 +15935,7 @@ culinarian
 culinary
 culion
 cull
+cullen
 cullender
 culler
 cullet
@@ -16606,6 +16621,7 @@ daran
 darauf
 darbies
 darda
+darda canica
 dardan
 dardanelles
 dardanus
@@ -20677,6 +20693,7 @@ egad
 egal
 egalitarian
 egbert
+egea
 eger
 egeria
 egest
@@ -21052,6 +21069,7 @@ eloquence
 eloquent
 eloy
 elrod
+elsa
 else
 elsewhere
 elsinore
@@ -23999,6 +24017,7 @@ fermion
 fermium
 fermo
 fern
+ferna
 fernald
 fernandel
 fernando
@@ -25131,6 +25150,7 @@ fonseca
 font
 fontainebleau
 fontanel
+fontanella
 fonteyn
 fontina
 foochow
@@ -25604,6 +25624,7 @@ fracture
 frae
 fraenum
 frag
+fraga
 frage
 fragen
 fragile
@@ -26322,6 +26343,7 @@ gabo
 gabon
 gabriel
 gabriele
+gabriella
 gabrielle
 gaby
 gad
@@ -26343,6 +26365,7 @@ gaea
 gaekwar
 gael
 gaelic
+gaeta
 gaff
 gaff-rigged
 gaffe
@@ -26664,6 +26687,7 @@ garotte
 garous
 garpike
 garret
+garreta
 garrick
 garrison
 garrote
@@ -28211,6 +28235,7 @@ gratulant
 gratulate
 gratulation
 graupel
+graus
 grav
 gravamen
 grave
@@ -28330,6 +28355,7 @@ gregarine
 gregarious
 gregariousness
 gregorian
+gregorius
 gregory
 greige
 greisen
@@ -32171,6 +32197,7 @@ idolist
 idolize
 idolum
 idomeneus
+idris
 idun
 idyll
 idyllic
@@ -32238,6 +32265,7 @@ iii
 ijssel
 ikan
 ikebana
+ikeda
 ikhnaton
 ikon
 il
@@ -32385,6 +32413,7 @@ imbeciles
 imbecilic
 imbecility
 imbed
+imber
 imbibe
 imbibition
 imbricate
@@ -36402,6 +36431,7 @@ kuenlun
 kufic
 kuhn
 kuibyshev
+kukalova
 kukri
 kulak
 kultur
@@ -36957,6 +36987,7 @@ lapstrake
 lapsus
 lapwing
 lar
+lara
 laramie
 larboard
 larcener
@@ -37443,6 +37474,7 @@ leila
 leinster
 leiodermia
 leipzig
+leis
 leishmania
 leishmaniasis
 leister
@@ -38183,6 +38215,7 @@ lirate
 lire
 liriodendron
 liripipe
+lisa
 lisboa
 lisbon
 lisle
@@ -38811,6 +38844,7 @@ lubricious
 lubricity
 lubricous
 lubumbashi
+luca
 lucama
 lucan
 lucania
@@ -39034,6 +39068,7 @@ luz
 luzern
 luzida
 luzon
+luzuriaga
 lv.
 lvov
 lw
@@ -42105,6 +42140,7 @@ momento
 momentous
 momentum
 momism
+momot
 momotus
 moms
 momus
@@ -42112,6 +42148,7 @@ mon
 mon-
 mon-khmer
 mon.
+mona
 monachal
 monachism
 monacid
@@ -42454,6 +42491,7 @@ morehead
 morel
 morello
 morelos
+moreno
 moreover
 mores
 moresby
@@ -42554,6 +42592,7 @@ moss-grown
 mossback
 mossbunker
 mosslike
+mossman
 mosstrooper
 mossy
 most
@@ -42681,6 +42720,7 @@ mown
 mox
 moxa
 moxie
+moya
 moyen
 mozambique
 mozarab
@@ -43352,6 +43392,7 @@ nardoo
 nares
 narghile
 narial
+narita
 narka
 narra
 narrate
@@ -43363,6 +43404,7 @@ narrow-mouthed
 narrows
 narthecium
 narthex
+narum
 naruna
 narva
 narvik
@@ -43380,6 +43422,7 @@ nashua
 nashville
 nasicornia
 nasion
+nason
 nasopharynx
 nassau
 nasser
@@ -45227,6 +45270,7 @@ oiseaux
 oisin
 oistrakh
 oiticica
+ojeda
 ojibwa
 ojos
 ok
@@ -46475,6 +46519,7 @@ oxytetracycline
 oxytocic
 oxytocin
 oxyurid
+oyama
 oye
 oyer
 oyez
@@ -47480,6 +47525,7 @@ patwin
 pau
 paucity
 paul
+paula
 pauldron
 pauletta
 pauli
@@ -47994,6 +48040,7 @@ perea
 peregrinate
 peregrination
 peregrine
+pereira
 peremptory
 perennate
 perennial
@@ -49050,6 +49097,7 @@ pinniped
 pinnule
 pinochle
 pinole
+pinon
 pinot
 pinpoint
 pinprick
@@ -49107,6 +49155,7 @@ pirandello
 piranesi
 piranha
 piranhas
+piras
 pirate
 pire
 piricularia
@@ -49260,6 +49309,7 @@ plaints
 plaisir
 plait
 plan
+plana
 planar
 planarian
 planate
@@ -52189,6 +52239,7 @@ querulous
 query
 quería
 ques.
+quesada
 quesnay
 quest
 questa
@@ -52629,6 +52680,7 @@ ramshackle
 ramtil
 ramulose
 ran
+rana
 rancagua
 rance
 ranch
@@ -54453,6 +54505,7 @@ rocambole
 rocco
 roch
 rochdale
+roche
 rochelle
 rochet
 rock
@@ -54829,6 +54882,7 @@ rubicon
 rubicund
 rubidium
 rubiginous
+rubini
 rubinstein
 rubious
 ruble
@@ -55625,6 +55679,7 @@ sartorius
 sartre
 sarà
 sarò
+sasa
 sasabe
 sasak
 sase
@@ -57987,6 +58042,7 @@ similitude
 simitar
 simla
 simmer
+simo
 simon
 simon-pure
 simone
@@ -62239,6 +62295,7 @@ tal
 talapoin
 talara
 talaria
+talavera
 talbot
 talc
 talca
@@ -62327,6 +62384,7 @@ tamworth
 tan
 tana
 tanach
+tanada
 tanager
 tanagra
 tanana
@@ -62442,6 +62500,7 @@ targum
 tariff
 tarija
 tarim
+tarka
 tarkington
 tarlatan
 tarmac
@@ -62745,6 +62804,7 @@ telic
 teliospore
 telium
 tell
+tella
 tellement
 tellen
 teller
@@ -63367,6 +63427,7 @@ thermotaxis
 thermotensile
 thermotherapy
 theroid
+theron
 theropod
 theropods
 thersites
@@ -63982,6 +64043,7 @@ tob.
 tobacco
 tobacconist
 tobey
+tobias
 tobit
 toboggan
 tobolsk
@@ -65240,6 +65302,7 @@ tsetse
 tshombe
 tsimshian
 tsingyuan
+tsukada
 tsunami
 tsushima
 tswana
@@ -67485,6 +67548,7 @@ verletzt
 verlieren
 verlo
 verloren
+verma
 vermeer
 vermeil
 vermicelli
@@ -67777,6 +67841,7 @@ viii
 viipuri
 viking
 vil.
+vila
 vilayet
 vile
 vili
@@ -67966,6 +68031,7 @@ vit
 vita
 vitaceous
 vital
+vitalis
 vitalism
 vitality
 vitalize
@@ -68037,6 +68103,7 @@ viyella
 viz.
 vizard
 vizcacha
+vizcaino
 vizier
 vizierate
 vizor
@@ -69902,6 +69969,7 @@ yalta
 yalu
 yam
 yama
+yamada
 yamanai
 yamashita
 yamauchi
@@ -70219,6 +70287,7 @@ zikkurat
 zillion
 zilpah
 zimbabwe
+ziminia
 zimmer
 zimmermann
 zimmi
