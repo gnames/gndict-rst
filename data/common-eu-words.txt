@@ -1695,6 +1695,7 @@ alexandre
 alexandretta
 alexandria
 alexandrian
+alexandrina
 alexandrine
 alexandrite
 alexas
@@ -2169,6 +2170,7 @@ amandine
 amanhã
 amanita
 amanuensis
+amapa
 amar
 amaral
 amaranth
@@ -2815,6 +2817,7 @@ anglophobia
 angola
 angolo
 angora
+angra
 angry
 angst
 angstrom
@@ -4549,6 +4552,7 @@ astoria
 astound
 astounding
 astr.
+astra
 astraddle
 astragal
 astragalus
@@ -4611,6 +4615,7 @@ at-home
 at.
 atabalipa
 atabrine
+atacama
 ataghan
 atahualpa
 atalanta
@@ -4701,6 +4706,7 @@ atonement
 atonic
 atony
 atop
+atoyac
 atp
 atque
 atrabilious
@@ -5615,6 +5621,7 @@ balaton
 balbo
 balboa
 balbriggan
+balclutha
 balcony
 bald
 baldacchini
@@ -5660,6 +5667,7 @@ ballarat
 ballast
 ballata
 balle
+ballena
 ballerina
 ballet
 ballflower
@@ -5700,6 +5708,7 @@ balsamiferous
 balsaminaceous
 balsamroot
 balsamum
+balsas
 balt.
 balthasar
 balthazar
@@ -6743,6 +6752,7 @@ beria
 beriber
 beriberi
 bering
+beringia
 beriosova
 berkeleian
 berkeleianism
@@ -7791,6 +7801,7 @@ bogie
 bogle
 bogo
 bogor
+bogota
 bogtrotter
 bogus
 bogy
@@ -8458,6 +8469,7 @@ brazilein
 brazilians
 brazilin
 brazzaville
+brea
 breach
 bread
 breadbasket
@@ -9500,6 +9512,7 @@ cabot
 cabotage
 cabral
 cabre
+cabrera
 cabretta
 cabrilla
 cabriole
@@ -9712,6 +9725,7 @@ calender
 calends
 calendula
 calenture
+caleta
 calf
 calfskin
 calgary
@@ -9897,6 +9911,7 @@ camp
 campagna
 campaign
 campamda
+campana
 campania
 campanida
 campanile
@@ -10650,6 +10665,7 @@ cassian
 cassiani
 cassie
 cassimere
+cassine
 cassino
 cassiodorus
 cassiopeia
@@ -10678,6 +10694,7 @@ castigate
 castiglione
 castile
 castilian
+castilla
 casting
 castle
 castled
@@ -10748,6 +10765,7 @@ cataplasm
 cataplexy
 catapult
 cataract
+catarina
 catarrh
 catarrhine
 catastrophe
@@ -10895,6 +10913,7 @@ caulis
 caulk
 caulls
 cauquenes
+caura
 caus.
 causa
 causal
@@ -11953,6 +11972,7 @@ chipmunk
 chipper
 chippewa
 chippy
+chiricahua
 chirico
 chirimoya
 chirk
@@ -12470,6 +12490,7 @@ circumvallate
 circumvent
 circumvolution
 circus
+cirella
 cirenaica
 ciri
 cirque
@@ -15904,6 +15925,7 @@ cue
 cueca
 cuenca
 cuenta
+cuernavaca
 cuerpo
 cues
 cuesta
@@ -21218,6 +21240,7 @@ emf
 emigrant
 emigrate
 emigration
+emilia
 emilia-romagna
 emily
 eminence
@@ -22576,6 +22599,7 @@ eulogy
 eumenides
 eumex
 eunectes
+eungella
 eunuch
 eunuchize
 eunuchoidism
@@ -27850,6 +27874,7 @@ gonfalon
 gonfalonier
 gonfanon
 gong
+gonga
 gongorism
 goniaster
 goniatites
@@ -27916,6 +27941,7 @@ goosy
 gopak
 gopher
 gopherwood
+gora
 goral
 gorblimey
 gorcock
@@ -27936,6 +27962,7 @@ gorgon
 gorgoneion
 gorgonian
 gorgonzola
+gorgora
 gorilla
 goring
 gorizia
@@ -29495,6 +29522,7 @@ harebrained
 harelip
 harem
 haremos
+harena
 hares
 hargeisa
 hargreaves
@@ -35453,6 +35481,7 @@ k.v.
 k2
 ka
 kaaba
+kaala
 kaapstad
 kab
 kabaragoya
@@ -35480,6 +35509,7 @@ kagoshima
 kagu
 kagura
 kahn
+kahua
 kaiak
 kaieteur
 kaif
@@ -36061,6 +36091,7 @@ kiowa
 kip
 kipling
 kipper
+kipunji
 kiran
 kirby
 kirchhoff
@@ -36247,6 +36278,7 @@ knurl
 knurled
 knurly
 knut
+knysna
 koa
 koala
 koan
@@ -36835,6 +36867,7 @@ lamprophyre
 lampyrid
 lampyrids
 lams
+lana
 lanai
 lanark
 lanate
@@ -37490,6 +37523,7 @@ lejos
 lek
 lely
 lem
+lema
 lemaitre
 leman
 lemberg
@@ -39321,6 +39355,7 @@ madeira
 madelia
 mademoiselle
 madera
+maderia
 madhouse
 madison
 madly
@@ -39631,6 +39666,7 @@ mall
 mallard
 mallarme
 malleable
+malleco
 mallee
 mallemuck
 malleolus
@@ -39780,6 +39816,7 @@ manducate
 manducatory
 mane
 maneira
+manengouba
 manera
 manes
 manet
@@ -39857,6 +39894,7 @@ manning
 mannish
 mannose
 mano
+manoa
 manoeuvre
 manolete
 manometer
@@ -40036,6 +40074,7 @@ mario
 mariola
 mariology
 marionette
+mariposa
 maris
 marish
 marist
@@ -42431,6 +42470,7 @@ moonwort
 moony
 moor
 moore
+moorea
 moorfowl
 mooring
 moorings
@@ -43975,6 +44015,7 @@ nico
 nicobarese
 nicodemus
 nicol
+nicola
 nicolai
 nicolaus
 nicolina
@@ -44539,6 +44580,7 @@ notwithstanding
 notícias
 nougat
 nought
+noumea
 noumenon
 noun
 nourish
@@ -45903,6 +45945,7 @@ oryx
 oryzivorous
 os
 osage
+osaka
 osborn
 osborne
 osburn
@@ -47162,6 +47205,7 @@ parget
 pargeting
 parhelion
 pari-mutuel
+paria
 pariah
 parian
 paries
@@ -48318,6 +48362,7 @@ peshawar
 peshitta
 pesky
 peso
+pesotum
 pessa
 pessary
 pessimism
@@ -49034,6 +49079,7 @@ pilsen
 pilsner
 pilsudski
 pily
+pima
 piment
 pimento
 pimiento
@@ -49042,6 +49088,7 @@ pimpernel
 pimple
 pimply
 pin
+pina
 pinafore
 pinball
 pince-nez
@@ -50269,6 +50316,7 @@ potluck
 potman
 potomac
 potoroo
+potos
 potpie
 potpourri
 potrebbe
@@ -51751,6 +51799,7 @@ punner
 punnet
 punster
 punt
+punta
 punto
 punts
 puny
@@ -54356,6 +54405,7 @@ rinderpest
 ring
 ring-necked
 ring-tailed
+ringaringa
 ringdove
 ringed
 ringent
@@ -54374,6 +54424,7 @@ rink
 rinse
 rinser
 rio
+rioja
 riot
 riotous
 rip
@@ -54414,6 +54465,7 @@ risque
 rissoa
 rissole
 rit.
+rita
 ritardando
 ritardo
 rite
@@ -54678,9 +54730,11 @@ roque
 roquefort
 roquelaure
 roquette
+roraima
 rorqual
 rosa
 rosaceous
+rosalia
 rosalind
 rosaniline
 rosario
@@ -54985,6 +55039,7 @@ rundown
 rune
 runesmith
 rung
+rungwe-kitulo
 runic
 runlet
 runnel
@@ -55483,6 +55538,7 @@ sanctum
 sanctus
 sand
 sand-blind
+sanda
 sandakan
 sandal
 sandalwood
@@ -62244,6 +62300,7 @@ tagmeme
 tagmemic
 tagmemics
 tagore
+tagua
 tagula
 tahiti
 tahitian
@@ -62277,6 +62334,7 @@ taintless
 taipan
 taipo
 taisho
+taita
 taiwan
 taiyuan
 tajo
@@ -62457,6 +62515,7 @@ taoism
 taonurus
 tap
 tap-dance
+tapajos
 tape
 tape-record
 taper
@@ -65376,6 +65435,7 @@ tull
 tulle
 tully
 tulostoma
+tulsa
 tum
 tumble
 tumble-down
@@ -65724,6 +65784,7 @@ tyrosinase
 tyrosine
 tyrothricin
 tyrr
+tyson
 tyumen
 tzar
 tá
@@ -65762,6 +65823,7 @@ ucayali
 uccidere
 ucciso
 uchida
+ucla
 ud
 udall
 udder
@@ -65787,6 +65849,7 @@ uhland
 uhr
 uighur
 uigur
+uinta
 uintathere
 uitlander
 ujiji
@@ -67066,6 +67129,7 @@ vaivode
 val.
 valais
 valance
+valdivia
 vale
 valediction
 valedictorian
@@ -67114,6 +67178,7 @@ valor
 valorization
 valorize
 valorous
+valpara
 valparaiso
 valse
 valuable
@@ -67250,6 +67315,7 @@ varve
 vary
 vas
 vas-
+vasco
 vascula
 vascular
 vasculum
@@ -67988,6 +68054,7 @@ virus
 visa
 visage
 visakhapatnam
+visaya
 visayan
 visby
 viscacha
@@ -68452,6 +68519,7 @@ waken
 wakerife
 waki
 waksman
+wakulla
 wal.
 walachia
 walapai
@@ -69997,6 +70065,7 @@ yarmouth
 yarn
 yarn-dyed
 yaroslavl
+yarra
 yarrow
 yashiro
 yashmak
@@ -70166,6 +70235,7 @@ yulan
 yule
 yulee
 yuletide
+yulong
 yuma
 yurev
 yurt
