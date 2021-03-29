@@ -38,6 +38,7 @@ allied
 although
 am
 amazonian
+american
 amphibian
 an
 anaerobic
@@ -79,6 +80,7 @@ asgard
 ash
 ashanti
 asian
+asiatic
 aspergillosis
 assam
 assembly
@@ -92,6 +94,7 @@ autumnal
 av
 avian
 aw
+awsa
 ax
 axenic
 ay
@@ -158,6 +161,7 @@ bor
 borhidi
 boring
 bory
+both
 bottom
 bovid
 bovine
@@ -522,6 +526,7 @@ fm
 fn
 fo
 focke
+for
 form
 forteen
 fossil
@@ -951,6 +956,7 @@ malme
 mammal
 mammalian
 man
+mancova
 manila
 mantids
 many
@@ -1210,6 +1216,7 @@ pelvis
 pennate
 peptide
 perennial
+perhaps
 perianth
 peripheral
 perry
@@ -1424,6 +1431,7 @@ seconds
 secretion
 sediment
 see
+selection
 selective
 sender
 seneca

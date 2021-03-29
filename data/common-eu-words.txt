@@ -517,6 +517,7 @@ achromatous
 achromic
 achsenia
 acht
+acia
 acicula
 acicular
 aciculate
@@ -2647,6 +2648,7 @@ ancon
 ancona
 anconaeus
 ancora
+ancova
 ancylostomiasis
 and
 and/or
@@ -19926,7 +19928,6 @@ dropsonde
 dropsy
 dropwort
 droshky
-drosophila
 dross
 drought
 droughty
@@ -33503,6 +33504,7 @@ inhumane
 inhumanity
 inhumation
 inhume
+inia
 inimical
 inimitable
 inina
@@ -52777,6 +52779,7 @@ rants
 ranunculaceous
 ranunculus
 rap
+rapa
 rapacious
 rapallo
 rapaz
@@ -68238,6 +68241,7 @@ volar
 volatile
 volatilize
 volcanic
+volcanii
 volcanism
 volcano
 volcanology
