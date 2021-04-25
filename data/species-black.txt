@@ -285,6 +285,7 @@ early
 earns
 earthworms
 east
+eastern
 ebony
 ecological
 ecology
@@ -407,6 +408,7 @@ fl
 flagrant
 flamed
 flat
+flattened
 flaw
 flaws
 flecked
@@ -431,6 +433,7 @@ foot
 footprints
 for
 foraging
+foraminifera
 forestall
 form
 forma
@@ -758,6 +761,7 @@ nomenclature
 non
 normal
 normals
+northern
 not
 notability
 notate
@@ -824,6 +828,7 @@ parthenogenetic
 partial
 parts
 pattern
+patterns
 peculiarities
 perforates
 performs
@@ -995,6 +1000,7 @@ solicit
 some
 sometimes
 south
+southern
 span
 spares
 species
