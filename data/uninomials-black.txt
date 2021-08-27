@@ -726,6 +726,7 @@ hw
 hx
 hy
 hybrid
+hybrids
 hydrophobia
 hymenopteran
 hymenopterous
@@ -1459,6 +1460,7 @@ siliceous
 simian
 singapore
 singer
+siphonal
 site
 six
 sixteen
