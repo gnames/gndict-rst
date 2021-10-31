@@ -62,7 +62,7 @@ pub fn download_genera(cfg: Conf) {
                 FROM name_string_indices nsi
                     JOIN name_strings ns on ns.id = nsi.name_string_id
                     JOIN canonicals c on c.id = ns.canonical_id
-                WHERE data_source_id = 181 AND RANK = 'genus'",
+                WHERE data_source_id = 181 AND RANK = 'Genus'",
         )
         .expect("Cannot execute genera query");
     while let Some(row) = res.next().unwrap_or(None) {
