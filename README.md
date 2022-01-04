@@ -17,6 +17,8 @@ git clone git@github.com:gnames/gndict.git
 cd gndict
 cp .env.example .env
 # modify .env according to database position.
+cargo run -- -r
+# if data are downloaded already and did not change
 cargo run
 ```
 
