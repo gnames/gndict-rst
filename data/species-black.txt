@@ -778,6 +778,7 @@ nf
 ng
 nidification
 nm
+nom
 nomenclatural
 nomenclature
 non
